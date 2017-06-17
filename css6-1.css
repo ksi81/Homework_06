@@ -1,0 +1,51 @@
+p.one {
+	background-color: green;
+
+}
+.one:hover {
+	background: yellow;}
+.one:active {
+	background: red;}
+
+p.two {
+	background-color: violet;
+
+}
+.two:hover {
+	background: brown;}
+.two:active {
+	background: gold;}
+
+input:focus {
+	border: 3px solid green;
+}
+.work3 p:nth-child(2n){
+	background: grey;
+}
+
+.work4 p:first-letter{
+    color: red; 
+    font-size: 2em;
+    font-style: georgia;
+}
+.work5 p:after{
+   content: '*';
+}
+.work6 p:before{
+content: "\2602";
+}
+
+.box {
+	width: 100px;
+	height: 50px;
+	background-color: black;
+}
+.box:before {
+	content: '';
+	float: left;
+	border: 10px solid transparent;
+border-right: 23px solid rgb(255, 68, 0);
+display: inline;
+width: 0;
+height: 0;
+}

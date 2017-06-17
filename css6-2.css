@@ -1,0 +1,114 @@
+body {
+	font-family: sans-serif, arial;
+
+}
+
+.first-table tr  {
+	/*border: 1px solid black;*/
+	border-collapse: 0px;
+	text-align: center;
+	font-family: sans-serif, arial;
+	padding: 5px;
+}
+.first-table th {
+	padding: 5px;
+}
+.people {
+	font-size: 14px;
+}
+.first-table td:first-child {
+	text-align: left;
+}
+
+    .second table {
+        border-collapse: collapse;
+        font-size: 12px;
+        font-family: sans-serif, arial;
+    }
+  .second th {
+    border-bottom: 1px solid #ddd;
+     padding: 10px 50px;
+     text-align: left;
+}
+   .second tr td {
+    padding: 10px 50px;
+}
+
+  .third table {
+        border-collapse: collapse;
+        font-size: 12px;
+        font-family: sans-serif, arial;
+    }
+  .third th {
+    border-bottom: 1px solid #ddd;
+     padding: 10px 50px;
+     text-align: left;
+}
+   .third tr td {
+    padding: 10px 50px;
+    border-bottom: 1px solid #ddd;
+}
+.work4 {
+width: 600px;
+height: 300px;
+background-color: #f0f0f0;
+padding: 5px;
+font-size: 11px;
+box-shadow: 0 0 9px 1px;
+border-radius: 4px;
+}
+ .table4 table {
+        border-collapse: collapse;
+        font-size: 10px;
+        font-family: sans-serif, arial;
+    }
+.table4 th {
+    border-bottom: 1px solid #ddd;
+     padding: 5px 25px 5px 0;
+     text-align: left;
+}
+   .table4 tr td {
+    padding: 5px 30px 5px 0;
+    /*border-bottom: 1px solid #ddd;*/
+}
+.table4 td:first-child {
+	text-align: left;
+	width: 100px;
+	color: red;
+}
+button{
+	min-width: 30px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	font-size: 11px;
+	display: inline-block;
+	border: 0;
+	margin-right: 2px;
+	font-weight: bold;
+}
+.table div {
+	margin: 0 auto;
+}
+.total {
+	text-align: right;
+	color: black;
+	font-size: 15px;
+}
+.total2 {
+	text-align: right;
+	color: grey;
+	font-size: 14px;
+}
+.last {
+	color: red;
+	font-size: 16px;
+	font-style: italic;
+	position: absolute;
+	margin: 20px 218px;
+}
+
+/*.del {
+	font-size: 10px
+
+}*/
