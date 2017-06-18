@@ -57,6 +57,22 @@ font-size: 11px;
 box-shadow: 0 0 9px 1px;
 border-radius: 4px;
 }
+div.work4:after {
+	content: "X";
+	width: 20px;
+	height: 20px;
+	/*display: inline-block;*/
+	float: right;  
+    position: relative; 
+	border: 2px solid white;
+	color: white;
+	background-color: black;
+	/*padding-left: 200px;*/
+	font-size: 14px;
+	top: -270px;
+	left: 18px;
+	border-radius: 100%;
+}
  .table4 table {
         border-collapse: collapse;
         font-size: 10px;
@@ -107,7 +123,17 @@ button{
 	position: absolute;
 	margin: 20px 218px;
 }
-
+blockquote:after {  
+    content: close-quote;  
+    font-size: 24pt;  
+    text-align: center;  
+    line-height: 42px;  
+    color: #fff;  
+    background: #ddd;  
+    float: right;  
+    position: relative;  
+    bottom: 40px; 
+}
 /*.del {
 	font-size: 10px
 
