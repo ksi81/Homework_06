@@ -72,6 +72,7 @@ div.work4:after {
 	top: -270px;
 	left: 18px;
 	border-radius: 100%;
+	text-align: center;
 }
  .table4 table {
         border-collapse: collapse;
@@ -133,6 +134,7 @@ blockquote:after {
     float: right;  
     position: relative;  
     bottom: 40px; 
+    text-align: center;
 }
 /*.del {
 	font-size: 10px
