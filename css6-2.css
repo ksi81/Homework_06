@@ -52,7 +52,7 @@ body {
 width: 600px;
 height: 300px;
 background-color: #f0f0f0;
-padding: 5px;
+padding: 10px;
 font-size: 11px;
 box-shadow: 0 0 9px 1px;
 border-radius: 4px;
@@ -69,22 +69,25 @@ div.work4:after {
 	background-color: black;
 	/*padding-left: 200px;*/
 	font-size: 14px;
-	top: -270px;
+	top: -258px;
 	left: 18px;
 	border-radius: 100%;
 	text-align: center;
+	line-height: 20px;
 }
- .table4 table {
+ table.table4 {
         border-collapse: collapse;
         font-size: 10px;
         font-family: sans-serif, arial;
     }
 .table4 th {
+	border-collapse: collapse;
     border-bottom: 1px solid #ddd;
      padding: 5px 25px 5px 0;
      text-align: left;
 }
    .table4 tr td {
+   	border-collapse: collapse;
     padding: 5px 30px 5px 0;
     /*border-bottom: 1px solid #ddd;*/
 }
@@ -111,11 +114,13 @@ button{
 	text-align: right;
 	color: black;
 	font-size: 15px;
+	border-right: 5px solid grey;
 }
 .total2 {
 	text-align: right;
 	color: grey;
 	font-size: 14px;
+	border-right: 5px solid grey;
 }
 .last {
 	color: red;
@@ -124,19 +129,5 @@ button{
 	position: absolute;
 	margin: 20px 218px;
 }
-blockquote:after {  
-    content: close-quote;  
-    font-size: 24pt;  
-    text-align: center;  
-    line-height: 42px;  
-    color: #fff;  
-    background: #ddd;  
-    float: right;  
-    position: relative;  
-    bottom: 40px; 
-    text-align: center;
-}
-/*.del {
-	font-size: 10px
+.total
 
-}*/
